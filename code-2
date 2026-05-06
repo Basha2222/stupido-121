@@ -1,0 +1,8 @@
+META ARGUMENTS:
+
+PARALLELISM: by default terraform follows parallelism.
+it will execute all the resources at a time.
+by default parallelism limit is 10.
+Terraform can create maximum 10 resources at a time.
+terraform apply -auto-approve -parallelism=1
+NOTE: IT WILL APPLICALBLE FOR BOTH APPLY & DESTROY.
